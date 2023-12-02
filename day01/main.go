@@ -33,7 +33,7 @@ func main() {
 			}
 		}
 
-		for i := size - 1; i > 0; i-- {
+		for i := size - 1; i >= 0; i-- {
 			r, _ := utf8.DecodeRune([]byte{line[i]})
 			if unicode.IsDigit(r) {
 				num += string(r)

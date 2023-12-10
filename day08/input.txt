@@ -1,0 +1,17 @@
+R
+
+AAA = (BBB, III)
+BBB = (CCC, FFF)
+CCC = (DDD, EEE)
+DDD = (DDD, DDD)
+EEE = (EEE, EEE)
+FFF = (HHH, GGG)
+HHH = (HHH, HHH)
+GGG = (GGG, GGG)
+III = (KKK, JJJ)
+KKK = (LLL, MMM)
+LLL = (LLL, LLL)
+MMM = (MMM, MMM)
+JJJ = (NNN, ZZZ)
+NNN = (NNN, NNN)
+ZZZ = (ZZZ, NNN)
